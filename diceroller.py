@@ -4,7 +4,7 @@ import time
 
 root = Tk()
 root.iconbitmap("d20.ico")
-root.title("Ichiro's Dice Roller")
+root.title("A Dice Roller")
 
 #Shows what to do
 tutorial = Label(root, text="Please choose the type of dice, number, and modifier")
