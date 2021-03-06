@@ -16,7 +16,7 @@ tutorialtype.grid(row=1, column=0)
 dicerolling = StringVar(root)
 dicerolling.set("4")  # default value
 
-diceoption = OptionMenu(root, dicerolling, "4", "6", "8", "10", "12", "20", "100")
+diceoption = OptionMenu(root, dicerolling, "4", "6", "8", "10", "12", "20", "100", "1000")
 diceoption.grid(row = 2, column = 0)
 
 dicenum = Entry(root, width=50)
